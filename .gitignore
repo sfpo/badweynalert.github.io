@@ -1,0 +1,18 @@
+# Ignore build output directories
+dist/
+build/
+
+# Ignore node_modules if adding a backend
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore R-specific files (if using R)
+.Rproj.user/
+.Rhistory
+.RData
