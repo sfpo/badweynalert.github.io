@@ -13,7 +13,7 @@ document.getElementById('language').addEventListener('change', function () {
 // Initialize Leaflet Map (Centered on Mogadishu Coast)
 const map = L.map('map').setView([2.0469, 45.3182], 8); // Mogadishu coordinates
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
 // Sample Fishing Zone Marker
